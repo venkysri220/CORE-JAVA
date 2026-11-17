@@ -1,0 +1,34 @@
+Control Flow Statements
+1. Introduction
+Control flow statements are used to control the order in which instructions are executed in a program.
+
+Normally, a program executes statements sequentially (one after another). Control flow statements change the normal execution based on conditions, repetitions, or jumps.
+2. Types of Control Flow Statements
+There are three major types of control flow statements:
+1. Decision-Making Statements
+2. Looping Statements
+3. Jump Statements
+3. Decision-Making Statements
+Decision-making statements are used to make decisions based on given conditions. They execute different blocks of statements depending on whether a condition is true or false.
+
+Types:
+- if statement: Executes a block of statements when the given condition is true.
+- if-else statement: Executes one block when the condition is true and another block when it is false.
+- if-elif-else statement: Checks multiple conditions and executes the block corresponding to the first true condition.
+- Nested if statement: An if statement placed inside another if statement.
+- Switch statement: Selects one option from multiple available choices based on an expression.
+4. Looping Statements
+Looping statements are used to execute a block of statements repeatedly until a specified condition is satisfied or becomes false.
+
+Types:
+- for loop: Repeats a block of statements for a specified number of iterations.
+- while loop: Repeats a block of statements as long as the given condition is true.
+- do-while loop: Executes the block at least once before checking the condition.
+5. Jump Statements
+Jump statements are used to transfer the control of execution from one part of a program to another.
+
+Types:
+- break: Terminates the current loop or switch statement immediately.
+- continue: Skips the remaining statements in the current loop iteration and moves to the next iteration.
+- return: Terminates the execution of a function and optionally sends a value back to the calling function.
+- goto: Transfers control to a specified label in a program (supported in languages such as C).
